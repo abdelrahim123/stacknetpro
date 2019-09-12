@@ -1,0 +1,294 @@
+
+.section-padding {
+    padding: 150px 0px;
+}
+.section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-title p {
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 11px 34px;
+    color: #666;
+}
+
+
+.section-title h2 {
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 0;
+}
+
+.section-title h2::before {
+    position: absolute;
+    left: 50%;
+    top: 55px;
+    height: 2px;
+    width: 80px;
+    background: #207FDC;
+    content: "";
+    margin-left: -37px;
+    z-index: 1;
+}
+/********NavBar************/
+.MainPicDiv
+{
+    background-color:#241194;
+    background-image: url(../img/shapes3.png);
+    background-repeat: repeat; 
+    background-position: center;
+}
+.MainPicDivRequist
+{
+    height: 300px ;
+    background-color:#1bacc6;
+}
+.Nav
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.logLink
+{
+    background-color: #fc5185;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px 20px 10px 20px;
+    margin-left: 30px
+}
+.btn
+{
+    background-color: #fc5185;
+    border: none;
+    border-radius: 10px 20px 10px 20px;
+    padding-left: 30px;
+    padding-right: 30px 
+}
+.nav-link:hover
+{
+    background-color: #fc5185;
+    border-radius: 10px 20px 10px 20px;    
+}
+.navbar-brand
+{
+    font-family: 'Pacifico';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    color:#FFF !important;
+}
+.nav-link
+{
+    color: #FFF !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;  
+    margin-left: 30px   
+}
+.login
+{
+    border-radius: 21px 3px 29px 21px;
+    background: #086272;
+    border: 1px solid #086272; 
+    text-align: center;
+}
+.card
+{
+    
+    background: #f9fafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 10px 7px 45px rgba(0,0,0,.04);
+    margin-top: 180px ; 
+    margin-bottom: 10px;
+    
+    
+}
+.card2
+{
+    padding: 50px 29px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 10px 7px 45px rgba(0,0,0,.04);
+
+}
+.card3
+{
+    padding: 40px 29px;
+    padding-top: 50px ; 
+    padding-bottom: 5px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 10px 7px 45px rgba(0,0,0,.04);
+
+}
+.search-btn
+{
+    background-color: #086272 ;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+    padding-left: 30px ;
+    padding-right: 30px  
+}
+/*********AboutUs***********/
+.aboutUs
+{
+    margin-top: 150px
+}
+.fa-phone-volume
+{
+    color: #fc5185;
+    margin-right: 10px
+}
+/***Solution***/
+.solutions
+{
+    margin-top: 150px
+}
+
+/*****Services Sction*******/
+.mainServ
+{
+    width: 100% ; 
+    display: flex ; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 50px ;
+}
+.mainServ .serv
+{
+    width: 280px;
+    margin-right: 20px;
+    margin-left: 20px ; 
+   background: #ffffff;
+   -webkit-border-radius:20px;
+   -o-border-radius:20px;
+   -moz-border-radius:20px;
+   border-radius:20px;
+    margin-bottom: 30px
+
+}
+.lastDivServices
+{
+   margin-right: 0px 
+}
+.mainServ >div img
+{
+    height: 200px;
+}
+.CardContent
+{
+    padding: 20px 15px
+        
+}
+.allCardContent
+{
+    margin-bottom: 20px
+}
+
+/*****Services Sction*******/
+.servicesSection
+{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.mainServices
+{
+    width: 100% ; 
+    display: flex ; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 50px ;
+}
+.mainServices .all
+{
+    width: 450px;
+    margin-right: 20px;
+    margin-left: 20px ; 
+   background: #ffffff;
+   -webkit-border-radius:20px;
+   -o-border-radius:20px;
+   -moz-border-radius:20px;
+   border-radius:20px;
+   margin-bottom: 30px ; 
+}
+.mainServices .all img
+{
+  width: 70%
+}
+.allCardContent
+{
+    width: 270px
+}
+.form-control
+{
+    border-radius: 50px;
+    background-color: #f7f9f9;
+    padding: 12px 30px;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #acacac;    
+}
+.x
+{
+    background-color: #ededed;
+    padding: 3px 7px   
+}
+.inp
+{
+   padding: 26px 40px; 
+}
+/*****Footer*******/
+footer
+{
+    background-image: url(../img/shapes3.png);
+    background-color: #241194;
+    background-repeat: repeat;
+    color: #FFF;
+    padding-top: 50px ; 
+    padding-bottom: 50px ; 
+    margin-top: 100px;
+}
+.mainFooterDiv
+{
+    position: relative ; 
+    
+}
+.mainFooterDiv > div > div
+{
+    margin-bottom: 30px
+}
+@media (max-width: 760px) 
+{
+    .headImg {
+        display: none
+    }
+}
+@media (max-width:760px) 
+{
+    .DetailsLocation {
+        display: none !important
+    }
+}
+/*********Using Page************/
+.questionBox
+{
+     border: 1px solid #000 ;
+     margin-bottom: 20px;
+     text-align: right;    
+     border-radius: 50px;
+     background-color: #FFF;
+     padding: 12px 30px;
+     transition: all .3s ease;
+     font-size: 16px;
+     color: #000;
+     margin-bottom: 30px;   
+}
