@@ -36,7 +36,7 @@
 /********NavBar************/
 .MainPicDiv
 {
-    background-color:#241194;
+    background-color:#000;
     background-image: url(../img/shapes3.png);
     background-repeat: repeat; 
     background-position: center;
@@ -260,7 +260,7 @@
 footer
 {
     background-image: url(../img/shapes3.png);
-    background-color: #241194;
+    background-color: #000;
     background-repeat: repeat;
     color: #FFF;
     padding-top: 50px ; 
