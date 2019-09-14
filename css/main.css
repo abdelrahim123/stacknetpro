@@ -1,4 +1,9 @@
 
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    transition: all 1s;
+}
 .section-padding {
     padding: 150px 0px;
 }
@@ -36,21 +41,26 @@
 /********NavBar************/
 .MainPicDiv
 {
-    background-color:#000;
-    background-image: url(../img/shapes3.png);
-    background-repeat: repeat; 
-    background-position: center;
+    background-image: -webkit-linear-gradient(rgba(17, 28, 57, 0.80), rgba(39, 59, 123, 0.85)), url('../img/businessmen-businesspeople-businesswomen-1249158.jpg');
+    background-attachment: fixed  ;
+    background-position: center ; 
+    background-size: cover ;
+    padding-bottom: 195px
 }
-.MainPicDivRequist
-{
-    height: 300px ;
-    background-color:#1bacc6;
+
+.navbar li > a {
+    border-radius: 8px;
+    font-size: 18px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 1s;
 }
 .Nav
 {
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #777;
 }
 
 .logLink
@@ -65,18 +75,9 @@
 {
     display: none
 }
-.btn
-{
-    background-color: #fc5185;
-    border: none;
-    border-radius: 10px 20px 10px 20px;
-    padding-left: 30px;
-    padding-right: 30px 
-}
 .nav-link:hover
 {
-    background-color: #fc5185;
-    border-radius: 10px 20px 10px 20px;    
+    background-color: #da4a5b; 
 }
 .navbar-brand
 {
@@ -109,8 +110,6 @@
     border: 1px solid #ddd;
     border-radius: 20px;
     box-shadow: 10px 7px 45px rgba(0,0,0,.04);
-    margin-top: 180px ; 
-    margin-bottom: 10px;
     
     
 }
@@ -125,7 +124,7 @@
 .card3
 {
     padding: 50px 29px;
-    padding-top: 250px ; 
+    padding-top: 100px ; 
     padding-bottom: 5px;
     margin-bottom: 30px;
 
@@ -147,6 +146,72 @@
     border-radius:40px;
     padding-left: 30px ;
     padding-right: 30px  
+}
+.titleAndLogo
+{
+    padding-top: 100px
+}
+.startHeader
+{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700
+}
+@media(max-width:800px)
+{
+    .startHeader
+    {
+        font-size: 27px;
+    }
+}
+.StartParagraph
+{
+    color: #FFF;
+    max-width: 710px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+}
+@media(max-width:800px)
+{
+    .StartParagraph
+    {
+        color: #FFF;
+        max-width: 710px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }   
+}
+@media(max-width:700px)
+{
+    .MainPicDiv
+    {
+        padding-bottom: 80px
+    }
+}
+.btn-outline {
+    color: white;
+    border: 2px solid;
+    background-color: #fc5185;
+    border-color: #fc5185;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 40px;
+}
+.btn-danger
+{
+    color: white;
+    border: 2px solid;
+    background-color: #fc5185;
+    border-color: #fc5185;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-weight: bold;
+    padding: 6px 20px;
 }
 /*********AboutUs***********/
 .aboutUs
@@ -288,8 +353,8 @@ footer
 }
 @media (max-width:760px) 
 {
-    .title {
-        display: none !important
+    .titleAndLogo {
+        padding-top: 50px
     }
 }
 /*********Using Page************/
