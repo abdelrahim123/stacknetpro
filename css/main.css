@@ -1,8 +1,23 @@
 
 body
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     transition: all 1s;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #737879;
+    margin-bottom: 10px;
+    font-style: normal;
+    transition: all 500ms ease;
 }
 .section-padding {
     padding: 150px 0px;
@@ -38,14 +53,39 @@ body
     margin-left: -37px;
     z-index: 1;
 }
+.welcome-section .content-box .list li {
+    position: relative;
+    display: block;
+    background: #f4f3f0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #737879;
+    padding: 27px 20px 28px 66px;
+    margin-bottom: 10px;
+}
+.welcome-section .content-box .list li:before {
+    position: absolute;
+    content: "\f058";
+    font-family: 'Font Awesome 5 Free';
+    left: 30px;
+    top: 27px;
+    font-size: 16px;
+    color: #008391;
+    font-weight: 600;
+}
+.welcome-section .content-box .list li:last-child {
+    margin-bottom: 0px;
+}
 /********NavBar************/
 .MainPicDiv
 {
-    background-image: -webkit-linear-gradient(rgba(17, 28, 57, 0.80), rgba(39, 59, 123, 0.85)), url('../img/businessmen-businesspeople-businesswomen-1249158.jpg');
+    background-image: -webkit-linear-gradient(rgba(17, 28, 57, 0.80), rgba(39, 59, 123, 0.85)), url('../img/1.jpg');
     background-attachment: fixed  ;
     background-position: center ; 
     background-size: cover ;
-    padding-bottom: 195px
+    padding-bottom: 195px;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0 98%);
 }
 
 .navbar li > a {
@@ -214,6 +254,7 @@ body
     padding: 6px 20px;
 }
 /*********AboutUs***********/
+/*
 .aboutUs
 {
     margin-top: 150px
@@ -223,12 +264,126 @@ body
     color: #fc5185;
     margin-right: 10px
 }
-/***Solution***/
+**Solution**
 .solutions
 {
     margin-top: 150px
 }
+*/
+.welcome-section
+{
+    padding: 82px 0px 120px 0px;
+    border-bottom: 2px solid #f4f3f0;
+}
+.introduction
+{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #008391;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
 
+.aboutHeader
+{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #2b3132;
+    margin-bottom: 15px;
+}
+
+.aboutParagraph
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #737879;
+    margin-bottom: 60px
+}
+.welcome-section .inner-box {
+    position: relative;
+}
+.welcome-section .inner-box .inner-content {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    background: #00004f;
+    max-width: 228px;
+    padding: 53px 30px 35px 40px;
+    z-index: 1;
+}
+.welcome-section .inner-box .inner-content h2 {
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 36px;
+    font-weight: 700;
+}
+.welcome-section .inner-box .image-box.image-one {
+    margin: 0px 20px 0px 130px;
+    box-shadow: 0 10px 40px rgba(81, 74, 65, 0.20);
+}
+.welcome-section .inner-box img {
+    width: 100%;
+}
+.welcome-section .content-box .list {
+    margin-bottom: 52px;
+}
+.welcome-section .content-box .text p {
+    margin-bottom: 29px;
+}
+.welcome-section .content-box .title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 700;
+}
+.welcome-section .content-box .text p .more
+{
+    color: #00f;
+    cursor: pointer
+}
+
+/*****chooseUs-Section******/
+.choose-section
+{
+    padding: 82px 0px 120px 0px;
+    border-bottom: 2px solid #f4f3f0;
+}
+
+/******deal-Section********/
+.deal-section
+{
+    padding: 82px 0px 120px 0px;
+}
+.deal
+{
+    padding: 144px 0px 120px 0px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.5)), url('../img/ourmission-bg.jpg');
+    background-position: center ; 
+    background-size: cover;
+    height: 600px;
+
+}
+.startHeader2
+{
+    font-size: 60px;
+    line-height: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 500px)
+{
+.startHeader2 {
+    font-size: 50px;
+    line-height: 55px;
+}
+}
 /*****Services Sction*******/
 .mainServ
 {
