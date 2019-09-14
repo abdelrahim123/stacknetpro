@@ -9,7 +9,17 @@ var d1 = document.getElementById('logInAppearance'),
     d9 = document.getElementById('hiddenMore4'),
     d10 = document.getElementById('more2'),
     d11 = document.getElementById('more3'),
-    d12 = document.getElementById('more4');
+    d12 = document.getElementById('more4'),
+    d13 = document.getElementById('hiddenMore5'),
+    d14 = document.getElementById('hiddenMore6'),
+    d15 = document.getElementById('hiddenMore7'),
+    d16 = document.getElementById('hiddenMore8'),
+    d17 = document.getElementById('hiddenMore9'),
+    d18 = document.getElementById('more5'),
+    d19 = document.getElementById('more6'),
+    d20 = document.getElementById('more7'),
+    d21 = document.getElementById('more8'),
+    d22 = document.getElementById('more9');
 d4.onclick=function(){
     d3.style.display="none";
     d2.style.display="block";
@@ -67,6 +77,71 @@ d12.onclick=function(){
         {
             d9.style.display="none";
             d12.innerHTML="....Show More"            
+        }
+    
+}
+d18.onclick=function(){
+    if(d18.innerHTML=="....Show More")
+        {
+            d13.style.display="inline";
+            d18.innerHTML="....Hide";    
+        }
+    else
+        {
+            d13.style.display="none";
+            d18.innerHTML="....Show More"            
+        }
+    
+}
+d19.onclick=function(){
+    if(d19.innerHTML=="....Show More")
+        {
+            d14.style.display="inline";
+            d19.innerHTML="....Hide";    
+        }
+    else
+        {
+            d14.style.display="none";
+            d19.innerHTML="....Show More"            
+        }
+    
+}
+d20.onclick=function(){
+    if(d20.innerHTML=="....Show More")
+        {
+            d15.style.display="inline";
+            d20.innerHTML="....Hide";    
+        }
+    else
+        {
+            d15.style.display="none";
+            d20.innerHTML="....Show More"            
+        }
+    
+}
+d21.onclick=function(){
+    if(d21.innerHTML=="....Show More")
+        {
+            d16.style.display="inline";
+            d21.innerHTML="....Hide";    
+        }
+    else
+        {
+            d16.style.display="none";
+            d21.innerHTML="....Show More"            
+        }
+    
+}
+d22.onclick=function(){
+    if(d22.innerHTML=="....Show More")
+        {
+            d17.style.display="inline";
+            d22.innerHTML="....Hide";    
+        }
+    else
+        {
+            d17.style.display="none";
+            d22.innerHTML="....Show More"            
         }
     
 }
