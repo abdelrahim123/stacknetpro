@@ -20,7 +20,7 @@ p {
     transition: all 500ms ease;
 }
 .section-padding {
-    padding: 150px 0px;
+    padding: 50px 0px;
 }
 .section-title {
     margin-bottom: 30px;
@@ -86,6 +86,14 @@ p {
     background-size: cover ;
     padding-bottom: 195px;
     clip-path: polygon(0 0, 100% 0, 100% 84%, 0 98%);
+}
+.MainPicDiv2
+{
+    background-image: -webkit-linear-gradient(rgba(17, 28, 57, 0.80), rgba(39, 59, 123, 0.85)), url('../img/1.jpg');
+    background-attachment: fixed  ;
+    background-position: center ; 
+    background-size: cover ;
+    padding-bottom: 195px;
 }
 
 .navbar li > a {
@@ -351,7 +359,6 @@ p {
 .choose-section
 {
     padding: 82px 0px 120px 0px;
-    border-bottom: 2px solid #f4f3f0;
 }
 
 /******deal-Section********/
@@ -552,4 +559,4 @@ footer
      color: #000;
      margin-bottom: 30px;   
 }
-/************End**************************/
+/**End**/

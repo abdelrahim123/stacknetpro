@@ -1,7 +1,3 @@
-var d1 = document.getElementById('logInAppearance'),
-    d2 = document.getElementById('hiddenTitle'),
-    d3 = document.getElementById('hiddenLogIn'),
-    d4 = document.getElementById('close'),
     d5 = document.getElementById('more'),
     d6 = document.getElementById('hiddenMore'),
     d7 = document.getElementById('hiddenMore2'),
@@ -20,14 +16,6 @@ var d1 = document.getElementById('logInAppearance'),
     d20 = document.getElementById('more7'),
     d21 = document.getElementById('more8'),
     d22 = document.getElementById('more9');
-d4.onclick=function(){
-    d3.style.display="none";
-    d2.style.display="block";
-}
-d1.onclick=function(){
-    d3.style.display="block";
-    d2.style.display="none";
-}
 d5.onclick=function(){
     if(d5.innerHTML=="....Show More")
         {
@@ -37,7 +25,7 @@ d5.onclick=function(){
     else
         {
             d6.style.display="none";
-            d5.innerHTML="....Show More"            
+            d5.innerHTML="....Show More" ;           
         }
     
 }
@@ -50,7 +38,7 @@ d10.onclick=function(){
     else
         {
             d7.style.display="none";
-            d10.innerHTML="....Show More"            
+            d10.innerHTML="....Show More" ;           
         }
     
 }
@@ -63,7 +51,7 @@ d11.onclick=function(){
     else
         {
             d8.style.display="none";
-            d11.innerHTML="....Show More"            
+            d11.innerHTML="....Show More";            
         }
     
 }
@@ -76,7 +64,7 @@ d12.onclick=function(){
     else
         {
             d9.style.display="none";
-            d12.innerHTML="....Show More"            
+            d12.innerHTML="....Show More";            
         }
     
 }
@@ -89,7 +77,7 @@ d18.onclick=function(){
     else
         {
             d13.style.display="none";
-            d18.innerHTML="....Show More"            
+            d18.innerHTML="....Show More";            
         }
     
 }
@@ -102,7 +90,7 @@ d19.onclick=function(){
     else
         {
             d14.style.display="none";
-            d19.innerHTML="....Show More"            
+            d19.innerHTML="....Show More";            
         }
     
 }
@@ -115,7 +103,7 @@ d20.onclick=function(){
     else
         {
             d15.style.display="none";
-            d20.innerHTML="....Show More"            
+            d20.innerHTML="....Show More";            
         }
     
 }
@@ -128,7 +116,7 @@ d21.onclick=function(){
     else
         {
             d16.style.display="none";
-            d21.innerHTML="....Show More"            
+            d21.innerHTML="....Show More";            
         }
     
 }
@@ -141,10 +129,12 @@ d22.onclick=function(){
     else
         {
             d17.style.display="none";
-            d22.innerHTML="....Show More"            
+            d22.innerHTML="....Show More";            
         }
     
 }
+
+
 
 
 $(document).ready(function(){
