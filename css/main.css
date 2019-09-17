@@ -276,6 +276,18 @@ p {
     font-weight: bold;
     padding: 6px 20px;
 }
+.getStart:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #FFF;
+    border: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -o-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
 /*********AboutUs***********/
 /*
 .aboutUs
@@ -680,8 +692,31 @@ p {
     color: #FFF
 }
 
-
-/*
+#goUPButton {
+    display: none;
+    font-size: 35px;
+    color: #FFF;
+    background-color: #337ab7;
+    border-radius:50%;
+    width:40px;
+    height: 40px;
+    padding-top: 2px;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    cursor: pointer;
+    z-index: 999999;
+    text-align: center;
+}
+#goUPButton:after {
+    content:"";
+    position:absolute;
+    width:100%;
+    bottom:1px;
+    z-index:-1;
+    transform:scale(.9);
+    box-shadow: -32px 4px 15px 4px #333;
+}
 
 
 

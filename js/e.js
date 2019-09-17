@@ -1,4 +1,4 @@
-    d5 = document.getElementById('more'),
+var d5 = document.getElementById('more'),
     d6 = document.getElementById('hiddenMore'),
     d7 = document.getElementById('hiddenMore2'),
     d8 = document.getElementById('hiddenMore3'),
@@ -16,6 +16,20 @@
     d20 = document.getElementById('more7'),
     d21 = document.getElementById('more8'),
     d22 = document.getElementById('more9');
+
+$(window).on("scroll",function(){
+    if($(window).scrollTop()>=300)
+    {
+        $('#goUPButton').slideDown(700);
+    }
+    else
+    {
+        $('#goUPButton').slideUp(700); 
+    }
+}) ;
+function goUP(){
+    window.scrollTo(0,0); 
+};
 d5.onclick=function(){
     if(d5.innerHTML=="....Show More")
         {
@@ -160,6 +174,8 @@ $(document).ready(function(){
       });
     } // End if
   });
+    
+    
 });
 
 
